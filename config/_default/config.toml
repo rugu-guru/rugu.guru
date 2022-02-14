@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://rugu.guru"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true

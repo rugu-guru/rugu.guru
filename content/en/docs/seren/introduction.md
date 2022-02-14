@@ -23,6 +23,7 @@ Seren is a Kodi add-on that allows you to easily watch movies and shows with a s
 
 This guide will show you how to setup something like the video bellow:
 
+<iframe src="https://www.youtube.com/embed/TPW8vCMBVUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;aspect-ratio:16/9;"></iframe>
 
 ## Prerequisites
 
