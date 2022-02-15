@@ -1,0 +1,95 @@
+$total-lines: 32;
+$left-offset: 29px;
+$height: 50px;
+$clip-height: 48px;
+
+/*
+** Apply styles to the parent element
+*/
+.Words {
+  position: absolute;
+  width: 1160px;
+  height: 1536px;
+  padding: 0;
+  margin: 0 auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 68px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  list-style: none;
+  cursor: default;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-kerning: normal;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+/*
+** Apply common styles to each line of text
+*/
+.Words-line {
+  height: $clip-height;
+  width: 236px;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  
+  // Change the perspective of each alternating line
+  &:nth-child(odd) {
+    transform: skew(60deg, -30deg) scaleY(.66667);
+  }
+  &:nth-child(even) {
+    transform: skew(0deg, -30deg) scaleY(1.33333);
+  }
+  
+  // Loop over the total lines and apply a left offset
+  @for $i from 1 through $total-lines+1 {
+    &:nth-child(#{$i}) {
+      left: $left-offset * $i;
+    }
+  }
+}
+
+
+@keyframes Words-line-animation {
+  25% {
+    transform: translate3d(0, 0, 0);
+  }
+  30% {
+    transform: translate3d(0, -#{$height}, 0);
+  }
+  75% {
+    transform: translate3d(0, -#{$height}, 0);
+  }
+  80% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.Words p {
+  text-decoration: none;
+  height: $height;
+  line-height: $height;
+  padding: 0 10px;
+  margin: 0;
+  transition: all .4s ease-in-out;
+  transform: translate3d(0, 0, 0);
+  vertical-align: top;
+  white-space: nowrap;
+  animation: Words-line-animation 12s infinite;
+}
+
+
+
+/*
+** The hover interaction
+*/
+// .Words:hover {
+//   p {
+//     transform: translate3d(0, -($height), 0);
+//   }
+// }

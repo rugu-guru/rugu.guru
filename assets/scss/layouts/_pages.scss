@@ -94,28 +94,3 @@ hr {
   bottom: 0;
   overflow: hidden;
 }
-
-.home-links ul {
-  position: absolute;
-  left: -3rem;
-}
-
-.home-links a {
-  font-size: 20rem;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-@include media-breakpoint-down(sm) {
-  .home-links a {
-    font-size: 10rem;
-  }
-
-  .home-links ul {
-    top: 30vh;
-  }
-}
-
-[data-dark-mode] .home-links a {
-  color: #dee2e6 !important;
-}

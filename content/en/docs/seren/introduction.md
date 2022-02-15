@@ -1,6 +1,6 @@
 ---
 title: "Seren install guide"
-description: "Seren is a Kodi addon that allows easily watch movies and shows with a streaming service like expirience."
+description: "Seren is a Kodi addon that allows easily watch movies and shows with a streaming service like experience."
 lead: ""
 date: 2022-02-12T13:38:28Z
 lastmod: 2022-02-12T13:38:28Z
