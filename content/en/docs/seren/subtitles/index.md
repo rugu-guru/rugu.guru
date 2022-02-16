@@ -15,7 +15,7 @@ toc: true
 
 For people who want or need subtitles to enjoy media content, Kodi provides a very robust system to easily add subtitles to your files.
 
-### Make subtitles appear by default
+## Make subtitles appear by default
 
 Subtitles don't appear by default in Kodi, in order to change this behavior go to `Player settings` → `Language` and simply select a language in `Preferred subtitle language` option. If a file playing contains a subtitle for the selected language, it will now be displayed automatically.
 
