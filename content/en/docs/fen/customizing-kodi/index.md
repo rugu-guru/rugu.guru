@@ -143,3 +143,22 @@ After returning to the home screen and waiting for the skin to load you'll see y
 
 **Search**
 ![Search Main Menu](main-menu-search.png)
+
+## Home layout options
+
+In the [above step](#selecting-the-home-layout) we selected the `Flix View | Multiple widgets` layout. Arctic Zephyr 2 has other layouts you can try. They are:
+
+**Flix View**
+![Flix View Multiple Widgets](flix-view-multiple-widgets.png)
+
+**Modern**
+![Modern Multiple Widgets](modern-multiple-widgets.png)
+
+**Modern (dark)**
+![Modern Multiple Widgets (dark)](modern-dark-multiple-widgets.png)
+
+**Vertical menu**
+![Vertical Menu Multiple Widgets](vertical-menu-multiple-widgets.png)
+
+**Horizontal menu**
+![Horizontal Menu Multiple Widgets](horizontal-menu-multiple-widgets.png)
