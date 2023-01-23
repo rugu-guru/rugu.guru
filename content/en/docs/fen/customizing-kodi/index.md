@@ -24,7 +24,7 @@ We'll start by installing a custom skin, an add-on that changes the look and fee
 We'll start by adding a new repository, by going to `File Manager` → `Add source` and entering the following url:
 
 ```
-https://heppenowski.github.io/repository.heppen
+https://heppen7.github.io/
 ```
 
 Give it a name like `heppen` and confirm.

@@ -64,7 +64,7 @@ https://tikipeter.github.io/
 
 Arctic Zephyr 2 - Ressurection is a Kodi skin created by **jurialmunkey** and remixed and maintained by **heppenowski**. You can find it online [here](https://forum.kodi.tv/showthread.php?tid=362941) and you can install it via:
 ```
-https://heppenowski.github.io/repository.heppen
+https://heppen7.github.io/
 ```
 
 ### a4kSubtitles
