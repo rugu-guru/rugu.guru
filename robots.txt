@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rugu.guru/sitemap.xml
+Sitemap: https://rugu-guru.github.io/rugu.guru/sitemap.xml
