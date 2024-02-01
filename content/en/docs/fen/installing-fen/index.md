@@ -17,7 +17,7 @@ After you have installed Kodi and registered a [Real-Debrid](https://real-debrid
 
 ## Navigating in Kodi
 
-Upon opening Kodi for the first time this should be the screen you're greeted to.
+When opening Kodi for the first time this should be the screen you're greeted to.
 
 ![Kodi Start Screen](kodi-start.png)
 
@@ -32,9 +32,9 @@ Navigate to the settings page via the gear button (⚙) on the start screen.
 ![Kodi Settings](kodi-settings.png)
 
 
-## Adding a repository
+## Adding a file source
 
-Fen is a custom plugin that expands Kodi's capabilities. To install plugins we need to tell Kodi a source to install them from. To do this we need to add a repository.
+Fen is a custom plugin that expands Kodi's capabilities. To install plugins we need to tell Kodi a source to install them from.
 
 We start by going to the `File manager` section in settings and selecting `Add source`.
 
@@ -47,22 +47,32 @@ In the `Add file source` window that appears select the option `<None>`.
 You'll see a textbox prompting you to input a source path. Here write the following url:
 
 ```
-https://tikipeter.github.io/
+https://tikipeter.github.io/packages/
 ```
 
-After confirming, give the repository a name and press `OK`. We recommend you name it `tikipeter` as we will be referring to this name later in the guide.
+After confirming, give the source a name and press `OK`. We recommend you name it `tikipeter` as we will be referring to this name later in the guide.
 
 ![File source done](file-source-done.png)
 
 Press `OK` and you will now see a `tikipeter` source in the `File manager` menu. This means the source has been added successfully.
 
-Now we'll install the repository from this source. Go back to the main settings page and navigate to `Add-ons`.
+Another source you'll need to add is for CocoScrapers. Repeat the previous steps but this time add the following url and name it `cocojoe`:
+
+```
+https://cocojoe2411.github.io
+```
+
+![File source coco scrapers](file-source-coco.png)
+
+Now we'll install the add-ons from these sources. Go back to the main settings page and navigate to `Add-ons`.
 
 ![Kodi Settings addon page](kodi-settings-addon.png)
 
 Here select `Install from zip file`.
 
 ![Addons Install from zip file](addons-install-from-zip.png)
+
+___
 
 #### Enabling unknown sources
 
@@ -76,24 +86,25 @@ With unknown sources active you can go back and proceed with the installation pr
 
 ___
 
-Here you'll see a list of all the available sources on your device. One of them will be the `tikipeter` source we added in the previous step.
+Here you'll see a list of all the available sources on your device. You will see the `tikipeter` and `cocojoe` sources we added in the previous step.
 
-![Install from zip sources](install-from-zip-sources.png)
+First select `tikipeter` and install the `plugin.video.fen-3.x.xx.zip` file found inside.
+After the instalation is complete you should see a `FEN FIRST USE` popup appear. You can press continue on all windows until the popup closes.
 
-Select it and install the `repository.tikipeter-1.0.0.zip` file found inside. After the repository is installed you will see an alert confirming the installation.
+![FEN first run popup](fen-first-run-popup.png)
 
-![Repository installed alert](repository-installed-alert.png)
+FEN is now installed but we still need to install the scrapers (as it's described in the popup you just closed). To do this navigate back to the `Install from zip file` screen and select the `cocojoe` and install the `repository.cocoscrapers-1.0.0.zip`. You'll see a confirmation when it finishes installing.
 
-## Installing an addon
+## Installing an addon from a repository
 
-Now that the repository is installed we can finally install Fen. To do this, back in the `Addons` settings page select `Install from repository` and find the `Tikipeter's Repository`.
+The Cocoscrapers instalation is different than Fen as you install it from a repository (that you just installed via a zip file). It seems convoluted but most Kodi addons are distributed this way to enable automatic updated. To install the addon itself we will need to navigate back to the `Addons` settings page select `Install from repository` where you will find our newly installed `CocoScrapers Repository`.
 
-Inside navigate to `Video add-ons` and find `Fen`.
+Inside navigate to `Program add-ons` and find `CocoScrapers Module`.
 
-![tikipeter repo](tikipeter-repo.png)
+![CocoScrapers repo](cocoscrapers-module.png)
 
-After selecting `Fen` you'll see the add-on details page where you can find a button to `Install`. Confirm any additional popups and wait for Fen to install.
+After selecting `CocoScrapers Module` you'll see the add-on details page where you can find an `Install` button on the bottom right.
 
-![Fen addon information](fen-info.png)
+![CocoScrapers install](cocoscrapers-install.png)
 
-You'll see a confirmation when it finishes installing.
+Press install and wait for the instalation to complete. You are now ready to configure FEN.
