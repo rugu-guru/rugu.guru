@@ -31,36 +31,49 @@ Finally install the `a4kSubtitles` add-on by going to `Add-ons` → `Install fro
 
 ![Install a4kSubtitles](a4subtitles-install.png)
 
+### OpenSubtitles account
+
+a4kSubtitles fetches subtitles from various sources online, one of the most popular sources is OpenSubtitles. To use OpenSubtitles you'll need to create an account on [their website](https://www.opensubtitles.org/) and input your credentials in the a4kSubtitles settings.
+
+After installing a4kSubtitles, navigate to `Add-ons` → `My add-ons` → `Subtitles` → `a4kSubtitles` → `Configure` → `Accounts` and input your OpenSubtitles username and password.
+
 ## Configuring subtitles
 
-After the installation, we'll need to tweak some Language settings. Navigate to `Settings` → `Player Settings` → `Language`. 
+After the installation, we'll need to tweak some Language settings. Navigate to `Settings` → `Player` → `Language`. 
 
 Here you can set your `Preferred subtitle language` which will force subtitles to appear by default if the file contains subtitles for that language.
 
 ![Preferred Subtitle Language](preferred-subtitle-language.png)
 
-In the download services section, you can select the `Languages to download subtitles for` and set `a4kSubtitles` as your `Default TV show service` and `Default movie service`.
+Next navigate to the next tab on the left called `Subtitles`, an inside the `Download Services` subsection select the `Languages to download subtitles for` and set `a4kSubtitles` as your `Default TV show service` and `Default movie service`.
 
 ![Download services settings](download-services.png)
 
+You have now configured a4kSubtitles to download subtitles for your media files.
+
+### Changing subtitle font size
+
+If you want to change the subtitle font size you'll need to change to `Expert` mode on the bottom left in the `Player` section of the settings.
+
+![Expert settings](expert-settings.png)
+
+After doing this you can see a lot more options, including a `Size` option to change the subtitle font size.
+
+
 ## Selecting and downloading subtitles
 
-After opening a stream you can access the playing menu by pressing your **Enter** button. Here you can find two toggles, one to toggle Audio tracks (🔊) and one to toggle Subtitles (💬).
+Now that everything is set up, this is how you can select and download subtitles when watching a show or movie.
 
-![Toggle audio tracks button](audio-button.png)
+After opening a stream open the controls bar by pressing the **Enter** button. After it opens, navigate to the second to last icon on the right (💬). This icon opens the `Subtitle Settings`.
 
-For finer control, you can go to the Settings (⚙) menu and select `Subtitle Settings`. Here you can select the `Subtitle` currently displaying and download new subtitles by pressing `Download subtitle...`.
+![Subtitle settings](subtitle-button.png)
+
+To view subtitles make sure the `Enable subtitles` toggle is on!
+
+The `Subtitle` option will display the currently selected subtitle. If the file has no available subtitle or you want to find a new one select `Download subtitle...` and an a4kSubtitles window will appear.
+
+You can also tweak subtitle timings in the `Subitlte offset` option. If the subtitles show up too early you can add a positive value to the offset, if they show up too late you can add a negative value.
 
 ![Subtitle settings](download-subtitle.png)
 
 {{< alert icon="👉" text="Subtitle changes take some time to occurr in Kodi. When changing or selecting a new subtitle wait a while for the new subtitle to appear." />}}
-
-## Changing subtitle font size
-
-If you want to change the subtitle font size you'll need to change to `Expert` settings on the bottom left of `Player settings` as seen below.
-
-![Expert settings](expert-settings.png)
-
-After you're in `Expert` mode go to `Language` → `Subtitles` and adjust the `Size`.
-
-![Expert subtitle settings](expert-subtitles.png)

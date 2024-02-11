@@ -149,6 +149,10 @@ You can also decide on the `Default home screen search icon behavior`.
 - If you want it to open a keyboard and go straight to search select the `Open keyboard` option.
 - If you want it to show a list of your previous searches select the `Open search window` option.
 
+To use the search feature simply press the magnifying glass icon on the top left of the home screen.
+
+![Search Icon](search-icon.png)
+
 ### IMDb and Rotten Tomatoes ratings
 
 The `FENtastic` skin also allows you to show ratings from IMDb and Rotten Tomatoes next to movies and shows. To enable this functionality you have to provide it with a `MBdList API Key`.
