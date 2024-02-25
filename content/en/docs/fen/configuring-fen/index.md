@@ -33,7 +33,7 @@ A popup will appear with a code to authorize your account. You can navigate to [
 
 ![Authorize trakt popup](authorize-trakt.png)
 
-In the Trakt you will need to login with your Trakt credentials if you're not already, and input the code that you see on the screen.
+In this Trakt page you will need to login with your Trakt credentials if you're not already, and input the code that you see on the screen.
 
 After submitting a popup should appear in Kodi confirming that your authentication was successful. And you now see a `REVOKE AUTHORIZATION: Trakt` option, meaning that you are now authorized.
 
@@ -66,6 +66,8 @@ Leave the sidebar by pressing the right button and inside the `External Scrapers
 ![Fen External Scrapers](external-scrapers.png)
 
 A popup will appear with a list of options. Select `COCOSCRAPERS MODULE` and then press `OK`. Everything should now be correctly configured.
+
+{{< alert icon="👉" text="In order for changes to take effect on the settings page make sure you press the Ok button on the right side of the modal" />}}
 
 ## Fen Settings
 

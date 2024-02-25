@@ -97,7 +97,7 @@ FEN is now installed but we still need to install the scrapers (as it's describe
 
 ## Installing an addon from a repository
 
-The Cocoscrapers instalation is different than Fen as you install it from a repository (that you just installed via a zip file). It seems convoluted but most Kodi addons are distributed this way to enable automatic updated. To install the addon itself we will need to navigate back to the `Addons` settings page select `Install from repository` where you will find our newly installed `CocoScrapers Repository`.
+The Cocoscrapers instalation is different than Fen as you install it from a repository (that you just installed via a zip file). It seems convoluted but most Kodi addons are distributed this way to enable automatic updates. To install the addon itself we will need to navigate back to the `Addons` settings page select `Install from repository` where you will find our newly installed `CocoScrapers Repository`.
 
 Inside navigate to `Program add-ons` and find `CocoScrapers Module`.
 

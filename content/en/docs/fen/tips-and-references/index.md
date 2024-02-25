@@ -63,7 +63,7 @@ https://tikipeter.github.io/packages/
 
 ### CocoScrapers
 
-CocoScrapers is a set of scrapers found at:
+CocoScrapers is a plugin of scrapers found at:
 
 ```
 https://cocojoe2411.github.io
@@ -85,7 +85,7 @@ https://a4k-openproject.github.io/a4kSubtitles/packages/
 
 ## More information
 
-You can read more about the Kodi addon community where all the information in this guide was gathered at [reddit.com/r/Addons4Kodi](https://www.reddit.com/r/Addons4Kodi/).
+You can read more about these addons and find the Kodi addon community where most of the information in this guide was gathered at [reddit.com/r/Addons4Kodi](https://www.reddit.com/r/Addons4Kodi/).
 
 ## Feedback
 
